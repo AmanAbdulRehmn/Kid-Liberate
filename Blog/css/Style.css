@@ -20,7 +20,7 @@ body {
 }
 
 .navbar-toggler {
-  border-color: rgba(255, 255, 255, 0.1);
+  border-color: #536863;
 }
 
 .navbar-toggler-icon {
@@ -141,7 +141,7 @@ body {
 /* Media queries for responsive adjustments */
 @media (max-width: 991px) {
   .navbar-collapse {
-    background-color: #5d6d7e;
+    background-color: #98c2b8;
   }
 }
 
