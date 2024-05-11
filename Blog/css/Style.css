@@ -20,13 +20,15 @@ body {
 }
 
 .navbar-toggler {
-  border-color: #536863;
+  border-color: #ccd8d6;
 }
 
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
+.navbar-collapse {
+  background-color: #98c2b8;
+}
 .nav-link {
   color: #f8f9f9;
 }
@@ -46,7 +48,8 @@ body {
       rgba(26, 130, 127, 0.7),
       rgba(141, 205, 202, 0.502)
     ),
-    url("/Kid-Liberate/Blog/assets/blog1.jpg") no-repeat center center;
+    url("https://raw.githubusercontent.com/AmanAbdulRehmn/Kid-Liberate/main/Blog/assets/blog1.jpg")
+      no-repeat center center;
   background-size: cover;
   color: rgb(29, 111, 58);
   text-align: center;
@@ -136,13 +139,6 @@ body {
 
 .footer svg:hover {
   transform: scale(1.2); /* Scales up the icon on hover */
-}
-
-/* Media queries for responsive adjustments */
-@media (max-width: 991px) {
-  .navbar-collapse {
-    background-color: #98c2b8;
-  }
 }
 
 /* Utility and spacing */
