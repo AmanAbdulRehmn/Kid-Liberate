@@ -239,3 +239,52 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #45a049;
 }
+
+/* .container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+} */
+
+/* Blog Header */
+.blog-header {
+  background-color: #eee;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.blog-header h1 {
+  color: #0056b3;
+  font-size: 24px;
+  text-align: center;
+}
+
+.metadata {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  margin-top: 5px;
+}
+
+/* Blog Content */
+.blog-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content h2 {
+  color: #004085;
+  margin-top: 20px;
+}
+
+.blog-content p {
+  margin-bottom: 10px;
+}
+
+/* Blog Footer Section */
+.blog-footer h3 {
+  color: #333;
+  padding-top: 20px;
+}
