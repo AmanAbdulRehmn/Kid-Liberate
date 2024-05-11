@@ -46,7 +46,7 @@ body {
       rgba(26, 130, 127, 0.7),
       rgba(141, 205, 202, 0.502)
     ),
-    url("/Blog/assets/blog1.jpg") no-repeat center center;
+    url("assets/blog1.jpg") no-repeat center center;
   background-size: cover;
   color: rgb(29, 111, 58);
   text-align: center;
