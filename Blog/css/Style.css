@@ -62,7 +62,12 @@ body {
 }
 
 .card-main {
-  background-image: linear-gradient(135deg, #ec71ec7a 100%, #9100c271 100%);
+  background-image: linear-gradient(
+    135deg,
+    #ff9cce 0%,
+    hsl(298, 33%, 81%) 50%,
+    #cf7bde 100%
+  );
   color: white; /* Ensures text is readable on a dark background */
   border: none; /* Removes default card border */
   border-radius: 25px; /* Optional: adds rounded corners to the card */
@@ -88,7 +93,7 @@ body {
 }
 
 .card-title {
-  color: #333;
+  color: #ff4949dc;
 }
 
 .card-text {
