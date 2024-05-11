@@ -60,6 +60,21 @@ body {
   color: rgb(255, 255, 255);
   font-weight: 500;
 }
+
+.card-main {
+  background-image: linear-gradient(135deg, #ec71ec7a 100%, #9100c271 100%);
+  color: white; /* Ensures text is readable on a dark background */
+  border: none; /* Removes default card border */
+  border-radius: 25px; /* Optional: adds rounded corners to the card */
+  padding: 20px; /* Adds some padding inside the card */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.card-main:hover {
+  transform: scale(1.02); /* Slightly enlarges the card on hover */
+}
+
 /* Card styling */
 .card {
   background: white;
